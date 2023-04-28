@@ -31,7 +31,9 @@ public class spawnmanager : MonoBehaviour
     {
         int moneyindex = Random.Range(0, moneyPrefabs.Length);
         //1.) Pick a random enemy
-        Vector3 randomSpawnPosition = new Vector3(Random.Range(xMin, xMax), Random.Range(yMin, yMax), 0);
+        Vector3 randomSpawnPosition = new Vector3(Random.Range(xMin, xMax), Random.Range(yMin, yMax), 0)
+            
+            ;
 
         //2.) Pick a random spawn point
         /*int spawnpoint = Random.Range(0, spawnpoints.Length);*/
